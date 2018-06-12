@@ -1,4 +1,4 @@
-![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 01: Node Ecosystem
+01: Node Ecosystem
 ===
 
 ## Submission Instructions
@@ -48,4 +48,11 @@ Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module
   * `else` return the second parameter subtracted from the first parameter
 
 ### Documentation
-In your README.md file, describe the exported values of each module defined in your `lib` directory. Every function description should include it's airty (expected number of parameters), the expected data for each parameter (data-type and limitations), and the expected output behavior (for both valid and invalid use). Feel free to include any additional information that you would like.
+
+Arithmetic.js:
+Math.add- this operation only takes in two parameters, and it is declaring a function that uses an if statment to say if the parameters are not a number, the result will be null, otherwise it should run the function where it adds the two parameters together. 
+
+Math.subtract- this operation only takes in two parameters, and it is declaring a function that uses an if statment to say if the parameters are not a number, the result will be null, otherwise it should run the function where it subtracts the first parameter from the second.
+
+Greet.js:
+his module should export a single function that has a single parameter that should expect a string as it's input. It will return the input name, concatenated with "hello" and will return null if the input is not a string.
